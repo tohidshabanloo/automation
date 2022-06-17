@@ -1,0 +1,25 @@
+.bg {
+  background-image: url("../../../../public/cover.webp");
+  background-size: cover;
+  background-position: center;
+}
+.headerRoot {
+  /* background-color: var(--primary-color); */
+  background-color: rgba(48, 49, 46, 0.607);
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: cernter;
+  padding: 40px;
+}
+
+.headerTitle {
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+.details {
+  font-size: 15px;
+}

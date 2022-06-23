@@ -26,6 +26,6 @@
     //   "@/api/*": ["api/*"]
     // }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/views/sharedUI/Table/Table.tsx"],
   "exclude": ["node_modules"]
 }

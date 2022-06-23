@@ -1,10 +1,10 @@
 import { FC } from "react";
-import LoginTemplate from "../views/templates/LoginTemplate/LoginTemplate";
+import LoginLayout from "../views/layouts/LoginLayout";
 
 const login: FC = () => {
   return (
     <div>
-      <LoginTemplate />
+      <LoginLayout />
     </div>
   );
 };

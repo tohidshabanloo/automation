@@ -1,10 +1,10 @@
 import { FC } from "react";
-import AdminTemplate from "../views/templates/AdminTemplate/AdminTemplate";
+import Layout from "../views/layouts/Layout";
 
 const login: FC = () => {
   return (
     <div>
-      <AdminTemplate />
+      <Layout />
     </div>
   );
 };

@@ -1,13 +1,15 @@
 .button {
-  padding: 20px;
+  padding: 10px;
   background-color: aquamarine;
   border: none;
   border-radius: 50px;
   margin-top: 30px;
+  margin-left: 10px;
   font-size: 30px;
   font-weight: bold;
   cursor: pointer;
   width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.27);
 }
 .button:hover {
   background-color: rgb(3, 134, 90);

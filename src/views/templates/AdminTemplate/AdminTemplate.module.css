@@ -5,3 +5,51 @@
 .chooseUser {
   width: 50%;
 }
+.formContainer {
+  background-color: rgb(236, 248, 212);
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  padding: 100px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+}
+.form {
+  border: 4px solid rgb(145, 145, 145);
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  padding: 20px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(3, 134, 90);
+  color: white;
+}
+.dataInput {
+  float: left;
+}
+.buttons {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.tableContainer {
+  border: 1px solid red;
+  padding: 60px;
+  height: 100vh;
+}

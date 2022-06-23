@@ -8,7 +8,10 @@ import { useRouter } from "next/router";
 const Login: FC = () => {
   const router = useRouter();
 
-  const clickHandler = () => {
+  const registerHandler = () => {
+    router.push("/dashboard");
+  };
+  const loginHandler = () => {
     router.push("/dashboard");
   };
 
@@ -22,7 +25,10 @@ const Login: FC = () => {
           <Input type="ایمیل" placeholder="ایمیل را وارد کنید" />
           <h2 className={styles.dataInput}>رمز عبور</h2>
           <Input type="پسورد" placeholder="پسورد را وارد کنید" />
-          <Button onClick={clickHandler} Children="ثبت نام" />
+          <span className={styles.buttons}>
+            <Button onClick={registerHandler} Children="ثبت نام" />
+            <Button onClick={loginHandler} Children="ورود" />
+          </span>
         </div>
       </div>
     </>
